@@ -1,0 +1,60 @@
+.Hero {
+    display :flex;
+    align-items: center;
+    max-width: 1280px;
+    height: calc(100vh-72px);
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+}
+
+h1{
+    font-weight: 800;
+    size: 4rem;
+    line-height: 90%;
+}
+
+.content p {
+    font-weight: 600;
+    size: 2rem;
+    line-height: 24px;
+    max-width: 65%;
+    color: grey;
+}
+
+.shop {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.shop {
+    display: flex;
+    gap: 3%;
+}
+
+.secondary-btn {
+    background-color: grey;
+}
+
+.shopping p {
+    font-size: 0.8rem;
+}
+
+.brand_name{
+    display: flex;
+    justify-content: center;
+    gap: 2%;
+}
+
+.shoe_img{
+    width: 50vw;
+    height: 50vh;
+}
+
+
+    
